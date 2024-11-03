@@ -1,0 +1,57 @@
+.b{
+    background:red ;
+    color: white;
+    text-align: center;
+    padding: 2.5em 2em;
+}
+.b_t{
+    font-size: 18px;
+    font-weight: 600;
+}
+.b_te{
+    font-weight: 500;
+    margin: 1em 0;
+}
+.b_p{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 24px;
+    padding: 1em;
+    width: 100%;
+}
+.b_p::placeholder{
+    font-family:var(--font-prin) ;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    background:url("../img/Pesquisa.svg") no-repeat;
+    background-position: 1em;
+}
+
+@media screen and (min-width:1024px){
+    .b_t{
+        font-size: 36px;
+    }
+
+    .b_p{
+        width: 50%;
+    }
+
+    .b_p::placeholder{
+        background-position: 7em;
+    }
+}
+    
+@media screen and (min-width:1728){
+    .b_p{
+        width: 50%;
+    }
+    .b_p::placeholder{
+        background-position: 12em;
+    }
+    .b{
+        padding: 5em 0 ;
+    }
+}

@@ -1,0 +1,20 @@
+@import url("style/header.css");
+@import url("style/b.css");
+@import url("style/c.css");
+@import url("style/t.css");
+@import url("style/co.css");
+@import url("style/r.css");
+
+:root{
+    --c-d-f: #000000;
+    --branco:#ffffff;
+    --font-prin:"Oswald";
+    --font-sec:"Playfair Display";
+}
+body{
+    background-color: var(--c-d-f);
+    font-family: var(--font-prin);
+    font-size: 16px;
+    font-weight: 400px;
+}
+
